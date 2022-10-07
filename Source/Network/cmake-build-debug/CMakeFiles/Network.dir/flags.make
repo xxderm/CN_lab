@@ -6,5 +6,5 @@ CXX_FLAGS = -m64 /MDd /Zi /Ob0 /Od /RTC1
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -IC:\Sources\Test\CNLab\Source\Network\Boost_INCLUDE_DIR 
 

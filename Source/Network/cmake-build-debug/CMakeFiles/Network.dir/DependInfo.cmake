@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Sources/Test/CNLab/Source/Network/Network.cpp" "C:/Sources/Test/CNLab/Source/Network/cmake-build-debug/CMakeFiles/Network.dir/Network.cpp.obj"
+  "C:/Sources/Test/CNLab/Source/Network/Network.cpp" "C:/Sources/Test/CNLab/Source/Network/cmake-build-debug/CMakeFiles/Network.dir/Network.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../Boost_INCLUDE_DIR"
   )
 
 # Targets to which this target links.

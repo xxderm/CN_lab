@@ -58,33 +58,33 @@ include CMakeFiles\Network.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\Network.dir\flags.make
 
-CMakeFiles\Network.dir\Network.cpp.obj: CMakeFiles\Network.dir\flags.make
-CMakeFiles\Network.dir\Network.cpp.obj: ..\Network.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Sources\Test\CNLab\Source\Network\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Network.dir/Network.cpp.obj"
+CMakeFiles\Network.dir\Network.obj: CMakeFiles\Network.dir\flags.make
+CMakeFiles\Network.dir\Network.obj: ..\Network.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Sources\Test\CNLab\Source\Network\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Network.dir/Network.obj"
 	C:\PROGRA~1\LLVM\bin\clang-cl.exe @<<
- /nologo -TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Network.dir\Network.cpp.obj /FdCMakeFiles\Network.dir\Network.pdb -c C:\Sources\Test\CNLab\Source\Network\Network.cpp
+ /nologo -TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Network.dir\Network.obj /FdCMakeFiles\Network.dir\Network.pdb -c C:\Sources\Test\CNLab\Source\Network\Network.cpp
 <<
 
-CMakeFiles\Network.dir\Network.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Network.dir/Network.cpp.i"
-	C:\PROGRA~1\LLVM\bin\clang-cl.exe > CMakeFiles\Network.dir\Network.cpp.i @<<
+CMakeFiles\Network.dir\Network.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Network.dir/Network.i"
+	C:\PROGRA~1\LLVM\bin\clang-cl.exe > CMakeFiles\Network.dir\Network.i @<<
  /nologo -TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Sources\Test\CNLab\Source\Network\Network.cpp
 <<
 
-CMakeFiles\Network.dir\Network.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Network.dir/Network.cpp.s"
+CMakeFiles\Network.dir\Network.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Network.dir/Network.s"
 	C:\PROGRA~1\LLVM\bin\clang-cl.exe @<<
- /nologo -TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Network.dir\Network.cpp.s /c C:\Sources\Test\CNLab\Source\Network\Network.cpp
+ /nologo -TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Network.dir\Network.s /c C:\Sources\Test\CNLab\Source\Network\Network.cpp
 <<
 
 # Object files for target Network
 Network_OBJECTS = \
-"CMakeFiles\Network.dir\Network.cpp.obj"
+"CMakeFiles\Network.dir\Network.obj"
 
 # External object files for target Network
 Network_EXTERNAL_OBJECTS =
 
-Network.lib: CMakeFiles\Network.dir\Network.cpp.obj
+Network.lib: CMakeFiles\Network.dir\Network.obj
 Network.lib: CMakeFiles\Network.dir\build.make
 Network.lib: CMakeFiles\Network.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Sources\Test\CNLab\Source\Network\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library Network.lib"

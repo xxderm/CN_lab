@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Network.dir/Network.cpp.obj"
+  "CMakeFiles/Network.dir/Network.obj"
   "Network.lib"
   "Network.pdb"
 )

@@ -43,7 +43,9 @@
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="clang"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="C:/Sources/Test/CNLab/Source/Network/../../Vendor/boost_1_80_0"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="nmake /NOLOGO /f C:\Sources\Test\CNLab\Source\cmake-build-debug\Network\Makefile VERBOSE=1 Network"/>
 					<CompileFile command="nmake /NOLOGO /f C:\Sources\Test\CNLab\Source\cmake-build-debug\Network\Makefile VERBOSE=1 &quot;$file&quot;"/>
@@ -57,7 +59,9 @@
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="clang"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="C:/Sources/Test/CNLab/Source/Network/../../Vendor/boost_1_80_0"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="nmake /NOLOGO /f C:\Sources\Test\CNLab\Source\cmake-build-debug\Network\Makefile VERBOSE=1 Network/fast"/>
 					<CompileFile command="nmake /NOLOGO /f C:\Sources\Test\CNLab\Source\cmake-build-debug\Network\Makefile VERBOSE=1 &quot;$file&quot;"/>

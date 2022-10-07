@@ -124,32 +124,20 @@ Network\fast:
 	$(MAKE) -f CMakeFiles\Network.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Network.dir\build
 .PHONY : Network\fast
 
-Network.obj: Network.cpp.obj
-
+# target to build an object file
+Network.obj:
+	$(MAKE) -f CMakeFiles\Network.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Network.dir\Network.obj
 .PHONY : Network.obj
 
-# target to build an object file
-Network.cpp.obj:
-	$(MAKE) -f CMakeFiles\Network.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Network.dir\Network.cpp.obj
-.PHONY : Network.cpp.obj
-
-Network.i: Network.cpp.i
-
+# target to preprocess a source file
+Network.i:
+	$(MAKE) -f CMakeFiles\Network.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Network.dir\Network.i
 .PHONY : Network.i
 
-# target to preprocess a source file
-Network.cpp.i:
-	$(MAKE) -f CMakeFiles\Network.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Network.dir\Network.cpp.i
-.PHONY : Network.cpp.i
-
-Network.s: Network.cpp.s
-
-.PHONY : Network.s
-
 # target to generate assembly for a file
-Network.cpp.s:
-	$(MAKE) -f CMakeFiles\Network.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Network.dir\Network.cpp.s
-.PHONY : Network.cpp.s
+Network.s:
+	$(MAKE) -f CMakeFiles\Network.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Network.dir\Network.s
+.PHONY : Network.s
 
 # Help Target
 help:

@@ -6,5 +6,5 @@ CXX_FLAGS = -m64 /Zi /Ob0 /Od /RTC1 -MDd   -std:c++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -IC:\Sources\Test\CNLab\Source\Network\..\..\Vendor\boost_1_80_0 
 
