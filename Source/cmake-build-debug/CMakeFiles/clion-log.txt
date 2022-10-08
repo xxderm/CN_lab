@@ -1,5 +1,15 @@
 "C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_C_COMPILER=C:/Program Files/LLVM/bin/clang-cl.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files/LLVM/bin/clang-cl.exe" -DCMAKE_C_FLAGS=-m64 -DCMAKE_CXX_FLAGS=-m64 -G "CodeBlocks - NMake Makefiles" C:\Sources\Test\CNLab\Source
+CMake Warning at C:/Program Files/JetBrains/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/FindBoost.cmake:1161 (message):
+  New Boost version may have incorrect or missing dependencies and imported
+  targets
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/FindBoost.cmake:1283 (_Boost_COMPONENT_DEPENDENCIES)
+  C:/Program Files/JetBrains/CLion 2020.1/bin/cmake/win/share/cmake-3.16/Modules/FindBoost.cmake:1921 (_Boost_MISSING_DEPENDENCIES)
+  Network/CMakeLists.txt:9 (find_package)
+
+
 Find boost
+doptimizedC:/Sources/Test/CNLab/Vendor/boost_1_80_0/stage/lib/libboost_system-vc142-mt-x64-1_80.libdebugC:/Sources/Test/CNLab/Vendor/boost_1_80_0/stage/lib/libboost_system-vc142-mt-gd-x64-1_80.lib
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Sources/Test/CNLab/Source/cmake-build-debug

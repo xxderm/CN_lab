@@ -173,6 +173,39 @@ Network.cpp.s:
 	cd C:\Sources\Test\CNLab\Source\cmake-build-debug\Network
 .PHONY : Network.cpp.s
 
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	cd C:\Sources\Test\CNLab\Source\cmake-build-debug
+	$(MAKE) -f Network\CMakeFiles\Network.dir\build.make /nologo -$(MAKEFLAGS) Network\CMakeFiles\Network.dir\main.cpp.obj
+	cd C:\Sources\Test\CNLab\Source\cmake-build-debug\Network
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd C:\Sources\Test\CNLab\Source\cmake-build-debug
+	$(MAKE) -f Network\CMakeFiles\Network.dir\build.make /nologo -$(MAKEFLAGS) Network\CMakeFiles\Network.dir\main.cpp.i
+	cd C:\Sources\Test\CNLab\Source\cmake-build-debug\Network
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd C:\Sources\Test\CNLab\Source\cmake-build-debug
+	$(MAKE) -f Network\CMakeFiles\Network.dir\build.make /nologo -$(MAKEFLAGS) Network\CMakeFiles\Network.dir\main.cpp.s
+	cd C:\Sources\Test\CNLab\Source\cmake-build-debug\Network
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,6 +218,9 @@ help:
 	@echo ... Network.obj
 	@echo ... Network.i
 	@echo ... Network.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
