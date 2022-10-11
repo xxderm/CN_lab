@@ -53,7 +53,10 @@ _deps
 **/compile_commands.json
 
 include/divisible/*
-
+# CLion work directory
+.idea/
+# CLion build directories
+cmake-build-*/
 
 ## Local 
 
